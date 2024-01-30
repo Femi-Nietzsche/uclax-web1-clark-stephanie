@@ -28,10 +28,10 @@ const MyRoutes = () => {
                     <Route element={<Contact />} path="contact" />
 
                     <Route element={<CourseWorkLayout />} path="course-work">
-                        <Route elememt={<Essays />} path="" />
-                        <Route elememt={<SunAndMoon />} path="sun-and-moon" />
+                        <Route element={<Essays />} path="" />
+                        <Route element={<SunAndMoon />} path="sun-and-moon" />
                         <Route
-                            elememt={<ResponsiveDesign />}
+                            element={<ResponsiveDesign />}
                             path="responsive"
                         />
                     </Route>
