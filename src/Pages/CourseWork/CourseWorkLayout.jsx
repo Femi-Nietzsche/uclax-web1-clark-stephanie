@@ -15,7 +15,6 @@ const CourseWorkLayout = () => {
                     </NavLink>
                     <NavLink to="/course-work/responsive">Responsive</NavLink>
                 </nav>
-                hello
                 <Outlet />
             </Inset>
         </CourseWorkLayoutStyled>
