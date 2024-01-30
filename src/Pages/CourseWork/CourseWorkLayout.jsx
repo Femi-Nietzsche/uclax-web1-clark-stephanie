@@ -11,10 +11,11 @@ const CourseWorkLayout = () => {
                 <nav className="sublinks">
                     <NavLink to="/course-work">Essays</NavLink>
                     <NavLink to="/course-work/sun-and-moon">
-                        Sun and Moon
+                        Sun And Moon
                     </NavLink>
-                    <NavLink to="/course-work/responsive"> Responsive</NavLink>
+                    <NavLink to="/course-work/responsive">Responsive</NavLink>
                 </nav>
+                hello
                 <Outlet />
             </Inset>
         </CourseWorkLayoutStyled>
