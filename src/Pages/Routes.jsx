@@ -1,5 +1,7 @@
 import { Routes, Route, HashRouter } from "react-router-dom";
 
+import { MediaQueryProvider } from "@/Common/useMediaQuery.jsx";
+
 // global styles
 import "@/Common/css/normalize.css";
 import "@/Common/css/global.scss";
@@ -15,28 +17,36 @@ import Contact from "./Contact";
 // course work page components
 import CourseWorkLayout from "./CourseWork/CourseWorkLayout.jsx";
 import SunAndMoon from "./CourseWork/SunAndMoon/SunAndMoon.jsx";
-import Essays from "./Coursework/Essays.jsx";
+import Essays from "./Coursework/Essays/Essays.jsx";
 import ResponsiveDesign from "./Coursework/ResponsiveDesign.jsx";
 
 const MyRoutes = () => {
     return (
         <HashRouter>
-            <Routes>
-                <Route element={<PagesLayout />}>
-                    <Route element={<Home />} path="" />
-                    <Route element={<Staff />} path="staff" />
-                    <Route element={<Contact />} path="contact" />
+            <MediaQueryProvider>
+                <Routes>
+                    <Route element={<PagesLayout />}>
+                        <Route element={<Home />} path="" />
+                        <Route element={<Staff />} path="staff" />
+                        <Route element={<Contact />} path="contact" />
 
-                    <Route element={<CourseWorkLayout />} path="course-work">
-                        <Route element={<Essays />} path="" />
-                        <Route element={<SunAndMoon />} path="sun-and-moon" />
                         <Route
-                            element={<ResponsiveDesign />}
-                            path="responsive"
-                        />
+                            element={<CourseWorkLayout />}
+                            path="course-work"
+                        >
+                            <Route element={<Essays />} path="" />
+                            <Route
+                                element={<SunAndMoon />}
+                                path="sun-and-moon"
+                            />
+                            <Route
+                                element={<ResponsiveDesign />}
+                                path="responsive"
+                            />
+                        </Route>
                     </Route>
-                </Route>
-            </Routes>
+                </Routes>
+            </MediaQueryProvider>
         </HashRouter>
     );
 };
