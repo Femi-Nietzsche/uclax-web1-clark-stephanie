@@ -12,4 +12,4 @@ AccoladeItem.propTypes = {
     accolade: PropTypes.string.isRequired,
 };
 
-const AccoladeItemStyled = styled.div``;
+const AccoladeItemStyled = styled.li``;
