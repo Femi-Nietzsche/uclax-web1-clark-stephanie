@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 const Submission = ({ sub }) => {
     const { name, email, message } = sub;
+
     return (
         <SubmissionStyled>
             {name} : {email} : {message}
@@ -18,7 +19,7 @@ Submission.propTypes = {
 };
 
 const SubmissionStyled = styled.div`
-    outlline: solid 1px #999;
+    outline: solid 1px #999;
     padding: 10px;
     margin: 10px 0px;
 `;
