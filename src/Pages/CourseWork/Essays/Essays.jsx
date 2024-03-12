@@ -158,15 +158,14 @@ const Essays = () => {
             >
                 <ul>
                     <li>
-                        <b>JPG:</b> Jpgs are lossy raster files which means they
-                        lose a small amount of information everytime the JPG is
-                        saved. JPGs work with compressing color so they are
-                        great for photographs and complex digital imagery. A
+                        <b>JPG:</b> Jpgs are lossy raster files, which means
+                        they lose a small amount of information everytime the
+                        JPG is saved. JPGs work with compressing color so they
+                        are great for photographs and complex digital imagery. A
                         high-resolution jpg is usually also suitable these days
-                        for printing with most print-on-demand companies. We are
-                        mostly discussing web use here, but there are a variety
-                        of file formats available for print. The reduction of
-                        file size results in the reduction of image quality.
+                        for printing with most print-on-demand companies.
+                        Remember with jpgs that the reduction of file size
+                        results in the reduction of image quality.
                     </li>
                     <li>
                         <b>GIF:</b> Gifs are a bitmap format that supports up to
@@ -208,12 +207,11 @@ const Essays = () => {
                         that a product or feature will fulfill, articulates what
                         success looks like for a product, and rallies a team to
                         turn that vision into a reality. After 10 years of
-                        studying the craft of product management, I’ve developed
-                        a deep understanding of what it means to be a product
-                        manager. While a product manager defines the direction
-                        of the product through research, vision-setting,
-                        alignment, and prioritization, the product owner should
-                        work more closely with the development team to execute
+                        studying the craft of product management. While a
+                        product manager defines the direction of the product
+                        through research, vision-setting, alignment, and
+                        prioritization, the <i>product owner </i>should work
+                        more closely with the development team to execute
                         against the goals that the product manager helps to
                         define.
                     </li>
