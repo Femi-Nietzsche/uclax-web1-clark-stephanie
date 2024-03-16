@@ -29,9 +29,9 @@ const MediumLargeStyled = styled.div`
 
     .logo {
         .SiteLogo {
-            width: 25%;
+            width: 15%;
             margin: auto;
-            padding: 20px 0px;
+            padding: 25px 0px;
         }
     }
 
@@ -43,12 +43,12 @@ const MediumLargeStyled = styled.div`
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #84d4d4;
+            border-bottom: solid 3px #fb6376;
 
             text-align: center;
             font-size: 12px;
             opacity: 0.8;
-            color: #84d4d4;
+            color: #fb6376;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;

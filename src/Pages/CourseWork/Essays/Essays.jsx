@@ -227,7 +227,7 @@ const Essays = () => {
                         and make adjustments accordingly. They can liaise
                         between engineering and business teams, and they can
                         offer insights to marketing and sales teams about the
-                        product if needed.{" "}
+                        product if needed.
                     </li>
                     <li>
                         <b>Business Analyst</b> The main goal of an Agile
@@ -248,7 +248,7 @@ const Essays = () => {
                         oversee sprint planning meetings where they help to keep
                         the team focused and prevent scope creep. They manage
                         sprint reviews and gather feedback, and they also remove
-                        roadblocks that could hamper the team’s productivity.{" "}
+                        roadblocks that could hamper the team’s productivity.
                     </li>
                     <li>
                         <b>UX Designer</b> Work with the product owner to come
