@@ -1,140 +1,76 @@
-import image1 from './img/Alex-Esqueda.jpg';
-import image2 from './img/Silvie-Esqueda.jpg';
-import image3 from './img/Kara-Smith.jpg';
-import image4 from './img/Brook.jpg';
-import image5 from './img/Amber-Dyett.jpg';
-import image6 from './img/Dr-Skyler-Harms.jpg';
-import image7 from './img/Elisa-Eastwood.jpg';
-import image8 from './img/Jaque-Ong.jpg';
-import image9 from './img/John-Giron.jpg';
-import image10 from './img/Karlie-Goretski.jpg';
-import image11 from './img/Shana-Millspaugh.jpg';
+import image1 from "./img/ux_img/25 HI-FI Home Screen New User.png";
+import image2 from "./img/ux_img/ApplePay_Wallet.png";
+import image3 from "./img/ux_img/Apply Rewards_Overlay_1stScreen.png";
+import image4 from "./img/ux_img/Order_Complete_User2.png";
+import image5 from "./img/ux_img/Payment_Settings_Overlay.png";
+import image6 from "./img/ux_img/Summary_Checkout_View_UserTest2_Stp3.png";
 
 export const staffData = [
     {
         id: 1,
         image: image1,
-        name: 'Alex Esqueda',
-        yearStarted: 2013,
+        name: "Home Screen Promo",
+        yearStarted: "SmashBurger",
         accolades: [
-            'Co-Owner, PageMeta Coach ',
-            'Program Designer CrossFit Decimate ',
-            'Decimate Performance Training ',
-            'CCFT/L-3 Certified CrossFit Trainer',
+            "Include Smashdeals on home screen ",
+            "Promote points ",
+            "Add popular ",
+            "CCFT/L-3 Certified CrossFit Trainer",
         ],
     },
     {
         id: 2,
         image: image2,
-        name: 'Silvie Esqueda',
-        yearStarted: 2013,
+        name: "Apple Pay",
+        yearStarted: "SmashBurger",
         accolades: [
-            'Co-Owner & Coach',
-            'CF-L2',
-            'USAW L-1',
-            'Precision Nutrition L-1',
+            "Inserted Apple Pay option",
+            "Streamlined checkout",
+            "3rd Party payment",
         ],
     },
     {
         id: 3,
         image: image3,
-        name: 'Kara Smith',
-        yearStarted: 2012,
+        name: "Returning Customers",
+        yearStarted: "SmashBurger",
         accolades: [
-            'Lead Coach & Operations Assistant   ',
-            '​CF-L2 Trainer',
-            'ATA Certified: Adaptive & Inclusive Trainer',
-            'The Phoenix (Volunteer)',
+            "Customer rewards screen",
+            "Point validation",
+            "Deals and Promos",
         ],
     },
     {
         id: 4,
         image: image4,
-        name: 'Brook',
-        yearStarted: 2019,
+        name: "Shopping Cart",
+        yearStarted: "SmashBurger",
         accolades: [
-            'Coach: Group Classes & Fundementals',
-            'CF-L2 , Trainer',
-            'ISSA Personal Trainer ',
-            'Nutrition Coach',
+            "Address and map preview",
+            "Order tracking",
+            "Totals as line items on single-screen",
         ],
     },
     {
         id: 5,
         image: image5,
-        name: 'Amber Dyett',
-        yearStarted: 2016,
+        name: "Saved Payment Screen",
+        yearStarted: "SmashBurger",
         accolades: [
-            'Coach',
-            'CF-L2',
-            'PN-1',
-            'BIRTHFIT Certified',
+            "Utilize saved payment methods",
+            "Gift card retrieval",
+            "3rd Party Apps",
         ],
     },
     {
         id: 6,
         image: image6,
-        name: 'Dr Skyler Harms',
-        yearStarted: 2010,
+        name: "Single Screen Order Verification",
+        yearStarted: "SmashBurger",
         accolades: [
-            'Physical Therapist',
-            'Doctor of Physical Therapy',
-            'Titleist Performance Institute Certified',
-            'Dry Needling Level 2',
-        ],
-    },
-    {
-        id: 7,
-        image: image7,
-        name: 'Elisa Eastwood',
-        yearStarted: 2014,
-        accolades: [
-            'Coach: Group Classes & Fundamentals',
-            '​CF-L1',
-            '2018 CF Regional Competitor',
-        ],
-    },
-    {
-        id: 8,
-        image: image8,
-        name: 'Jaque Ong',
-        yearStarted: 2012,
-        accolades: [
-            'PageMeta Olympic Lifting Coach',
-            'U.S.A.W',
-            'IKKF Instructor',
-            'Sports & Performance Cert Trainer',
-        ],
-    },
-    {
-        id: 9,
-        image: image9,
-        name: 'John Giron',
-        yearStarted: 2010,
-        accolades: [
-            'Coach: Group Classes & Fundamentals',
-            'CF-L1',
-        ],
-    },
-    {
-        id: 10,
-        image: image10,
-        name: 'Karlie Goretski',
-        yearStarted: 2015,
-        accolades: [
-            'Coach: Kids CF',
-            'CF-L1',
-        ],
-    },
-    {
-        id: 11,
-        image: image11,
-        name: 'Shana Millspaugh',
-        yearStarted: 2013,
-        accolades: [
-            'Coach',
-            'CF-L1',
-            'USAW L-1',
+            "Address and map preview",
+            "Order tracking",
+            "Totals as line items on single-screen",
         ],
     },
 ];

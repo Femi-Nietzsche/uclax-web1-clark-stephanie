@@ -11,7 +11,7 @@ const StaffMember = ({ member }) => {
             <h3>{name}</h3>
             <div className="bottom">
                 <p>
-                    <b>Year Started: </b>
+                    <b>PROJECT: </b>
                     {yearStarted}
                 </p>
                 <Accolades accolades={accolades} />
@@ -28,7 +28,7 @@ StaffMember.propTypes = {
 };
 
 const StaffMemberStyled = styled.div`
-    background-color: white;
+    background-color: #000;
 
     img {
         width: 100%;
@@ -36,13 +36,13 @@ const StaffMemberStyled = styled.div`
     }
 
     .bottom {
-        padding: 20px;
+        padding: 30px;
     }
 
     h3 {
-        color: white;
-        background-color: #fb6376;
-        padding: 5px 10px;
+        color: #15dbff;
+        background-color: #000;
+        padding: 15px 10px;
         margin: 0px;
     }
 `;

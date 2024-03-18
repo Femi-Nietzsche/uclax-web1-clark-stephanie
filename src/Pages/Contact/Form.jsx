@@ -81,9 +81,11 @@ const FormStyled = styled.form`
 
     label {
         font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
         display: block;
         margin-bottom: 0px;
-        border: solid 1px #000;
+        border: solid 0px #000;
         background-color: #999;
     }
 

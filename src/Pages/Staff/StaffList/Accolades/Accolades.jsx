@@ -22,4 +22,5 @@ Accolades.propTypes = {
 const AccoladesStyled = styled.ul`
     padding-left: 20px;
     list-style-type: disc;
+    color: white;
 `;
